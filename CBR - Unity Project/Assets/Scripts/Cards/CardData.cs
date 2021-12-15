@@ -13,6 +13,13 @@ public class CardData
         _damageSprite = damageSprite;
         _damageAmount = damageAmount;
     }
+
+    public CardData(Sprite weaponSprite,SelectedSprite selectedSprite)
+    {
+        _weaponSprite = weaponSprite;
+        _damageSprite = selectedSprite.sprite;
+        _damageAmount = selectedSprite.damage;
+    }
     
     public void SetWeaponSprite(Sprite weaponSprite)
     {

@@ -16,7 +16,7 @@ public class CardGenerator : MonoBehaviour
 
     private void SpawnCard()
     {
-        CardData data = new CardData(weaponSelection.GetRandomSprite(),damageSelection.GetRandomSprite(),Random.Range(1,7));
+        CardData data = new CardData(weaponSelection.GetRandomSprite(),damageSelection.GetRandomSpriteWithPosition());
         GameObject card = Instantiate(cardHolderTemplate);
         CardHolder holder = card.GetComponent<CardHolder>();
         holder.InitializeCard(data);

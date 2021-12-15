@@ -18,3 +18,12 @@ Safe spots are found in the overworld where you can buy and sell cards to prepar
 2. Enemies
 3. Obstacles
 4. Safe Zones
+
+### Deck
+1. Card Seller
+2. Player Upgrades
+
+## Game Flow
+### Game Start
+### Core Game
+### Win/Lose Mechanic

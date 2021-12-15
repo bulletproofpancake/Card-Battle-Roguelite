@@ -1,4 +1,7 @@
 # Game Design Document
+
+---
+
 ## Table of Contents
 - [Game Design Document](#game-design-document)
   - [Table of Contents](#table-of-contents)
@@ -17,16 +20,19 @@
     - [Core](#core)
     - [Overworld](#overworld-1)
     - [Deck](#deck)
+
 ---
+
 ## Game Pillars
 ### Overworld
 Explore a procedurally generated dungeon to find cards and gold.
 ### D-D-Duel!
-Cards found in the overworld are used in combat in order to defeat the enemy.
+Cards found in the overworld are used in exploration to obtain loot, and in combat in order to defeat the enemy.
 ### Deck Builder
 Safe spots are found in the overworld where you can buy and sell cards to prepare for the next area.
 
 ---
+
 ## Game Flow
 ### Game Start
 - Player chooses a deck before entering the dungeon (Dead Cells style).

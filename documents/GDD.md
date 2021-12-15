@@ -12,7 +12,7 @@
   - [Game Flow](#game-flow)
     - [Game Start](#game-start)
     - [Core Game](#core-game)
-    - [Win/Lose Mechanic](#winlose-mechanic)
+    - [End Conditions](#end-conditions)
       - [Win Condition](#win-condition)
       - [Lose Condition](#lose-condition)
     - [Safe Zones](#safe-zones)
@@ -42,7 +42,7 @@ Safe spots are found in the overworld where you can buy and sell cards to prepar
 - Enemies can be found in the dungeon, colliding with them will enter a battle state (Pokemon style)
 - In the battle state, the player's skills are based on the cards in the deck. (Combat could be similar to Ni No Kuni 1 or go full card game in combat)
 
-### Win/Lose Mechanic
+### End Conditions
 #### Win Condition
 - Player reaches end of level.
 
